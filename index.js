@@ -95,7 +95,7 @@ async function fetchData() {
         let bookingOpened = false;
         if (data.result) {
             for (const evt of data.result) {
-                if (evt.team_2 === "Sunrisers Hyderabad" && evt.event_Button_Text === "BUY TICKETS") {
+                if (evt.team_2 === "Chennai Super Kings" && evt.event_Button_Text === "BUY TICKETS") {
                     bookingOpened = true;
                     break;
                 }
